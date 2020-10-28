@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Filmzoeker</title>
+    <script defer type="text/javascript" src="moviebase.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+
+        <header class="main-head">
+            <h1>Welkom bij de Winc Filmzoeker</h1> 
+        </header>
+
+        <nav class="nav">
+            <div class="nav-radio">
+                <input type="radio" id="latest" name="movie-filter" value="latest">
+                <label for="latest"> Laatste films: 2014 of nieuwer.</label>
+            </div>
+            <div class  ="nav-radio">
+                <input type="radio" id="avengers" name="movie-filter" value="avengers">
+                <label for="avengers">Avengers films</label>
+            </div>
+            <div class  ="nav-radio">
+                <input type="radio" id="x-men" name="movie-filter" value="x-men">
+                <label for="x-men">X-men films</label>
+            </div>
+            <div class  ="nav-radio">
+                <input type="radio" id="princess" name="movie-filter" value="princess">
+                <label for="princess">Princess films</label>
+            </div>
+            <div class  ="nav-radio">
+                <input type="radio" id="batman" name="movie-filter" value="batman">
+                <label for="batman">Batman films</label>
+            </div>
+        </nav>
+        
+        <div class="search">
+            <input type="text" id="input">
+            <button id="search-button">Zoek</button>
+        </div>
+        <div class="movieContainer">
+            <ul id="movieList">
+       
+            </ul>
+
+        </div>
+
+ </body>
+</html>
